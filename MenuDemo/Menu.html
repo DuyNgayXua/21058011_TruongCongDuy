@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px auto;
+      }
+      .wrapper {
+        background-color: aqua;
+        width: 1000px;
+        height: 750px;
+        box-sizing: border-box;
+      }
+      header {
+        background-color: aquamarine;
+        height: 150px;
+        width: 1000px;
+        position: relative;
+      }
+      footer {
+        background-color: blueviolet;
+        height: 150px;
+        width: 1000px;
+      }
+      .content {
+        background-color: blanchedalmond;
+        height: 700px;
+        width: 1000px;
+      }
+      aside {
+        background-color: black;
+        float: left;
+        height: 100%;
+        width: 40%;
+      }
+      section {
+        background-color: aqua;
+        float: right;
+        height: 100%;
+        width: 60%;
+      }
+      nav {
+        background-color: blueviolet;
+        width: 1000px;
+        height: 50px;
+      }
+      .menu li {
+        height: 50px;
+        width: 166px;
+        line-height: 50px;
+        list-style: none;
+        display: block;
+        float: left;
+        background-color: beige;
+        text-align: center;
+      }
+      li a {
+        text-decoration: none;
+        color: darkred;
+        padding: 16px;
+        font-weight: bolder;
+      }
+      .menu li:hover {
+        background-color: #777;
+      }
+      li:hover > a {
+        color: black;
+        font-style: italic;
+      }
+      body {
+        background-image: url(../IMAGE/hinhnen.jpg.jpg);
+      }
+      .top-menu {
+        position: absolute;
+        height: 50px;
+        width: 300px;
+        background-color: #777;
+        top: 70px;
+        right: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <ul class="top-menu"></ul>
+      </header>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tuyển sinh</a></li>
+          <li><a href="#">Liên hệ</a></li>
+          <li><a href="#">Địa chỉ</a></li>
+          <li><a href="#">Công tác</a></li>
+          <li><a href="#">Sinh viên</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <aside></aside>
+        <section></section>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>
