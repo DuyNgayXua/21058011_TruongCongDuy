@@ -62,7 +62,6 @@
       li a {
         text-decoration: none;
         color: darkred;
-        padding: 16px;
         font-weight: bolder;
       }
       .menu li:hover {
@@ -72,23 +71,32 @@
         color: black;
         font-style: italic;
       }
-      body {
-        background-image: url(../IMAGE/hinhnen.jpg.jpg);
-      }
       .top-menu {
         position: absolute;
         height: 50px;
-        width: 300px;
-        background-color: #777;
+        width: 400px;
+        background-color: beige;
         top: 70px;
         right: 30px;
+        line-height: 50px;
+        list-style: none;
+        display: block;
+        float: left;
+        text-align: center;
+      }
+      .top-menu li:hover {
+        background-color: #777;
       }
     </style>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <ul class="top-menu"></ul>
+        <ul class="top-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tuyển sinh</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
       </header>
       <nav>
         <ul class="menu">
