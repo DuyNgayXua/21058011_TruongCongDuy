@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px auto;
+      }
+      .wrapper {
+        width: 1000px;
+        height: 700px;
+        border: 1px black solid;
+        background-color: aqua;
+      }
+      header {
+        width: 100%;
+        height: 100px;
+        background-color: #b04c14;
+        border-bottom: 1px black solid;
+      }
+      nav {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        border-bottom: 5px gray ridge;
+      }
+      .content {
+        width: 100%;
+        height: 480px;
+        background-color: white;
+      }
+      aside{
+        height: 100%;
+        float: left;
+        width: 55%;
+      }
+      section{
+        height: 100%;
+        float: right;
+        width: 45%;
+      }
+      footer {
+        width: 100%;
+        height: 70px;
+        background-image: url(./img2.png);
+      }
+      .menu li {
+        height: 50px;
+        width: 100px;
+        line-height: 50px;
+        list-style: none;
+        display: block;
+        float: left;
+        background-color: white;
+        text-align: center;
+      }
+      li a {
+        text-decoration: none;
+        color: brown;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .menu li:hover {
+        background-color: #777;
+      }
+      li:hover > a {
+        color: black;
+        font-style: italic;
+      }
+      h1 {
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 40px;
+        color: green;
+        text-shadow: 5px 5px 3px white;
+      }
+      img.h1 {
+        width: 100%;
+        height: 100px;
+      }
+     img.h3{
+        padding-left: 80px;
+     }
+      .p1 {
+        padding-left: 10px;
+        padding-top: 30px;
+        font-size: 25px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(59, 83, 11);
+        letter-spacing: 4px;
+      }
+      .p2{
+        padding-left: 30px;
+        padding-top: 20px;
+        font-style: italic;
+        letter-spacing: 2px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+          color: rgb(114, 161, 20);
+      }
+      .p3{
+        padding-left: 30px;
+        padding-top: 20px;
+      }
+      .p4{
+        padding-left: 30px;
+        padding-top: 20px;
+      }
+      .p5{
+        padding-left: 30px;
+        padding-top: 20px;
+      }
+      .p6{
+        padding-left: 30px;
+        padding-top: 20px;
+      }
+      .p7{
+        padding-left: 30px;
+        padding-top: 30px;
+      }
+      .p8{
+        padding-top: 10px;
+        padding-left: 10px;
+        color: brown;
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-weight: bolder;
+      }
+      .p9{
+        padding-left: 130px;
+        padding-top: 20px;
+        color: brown;
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-weight: bolder;
+      }
+      .area{
+        margin-top: 50px;
+        background-color: bisque;
+        width: 200px;
+        height: 200x;
+        border-radius: 10px 10px 0px 0px;
+      }
+      .u{
+        padding-left: 40px;
+        color: #b04c14;
+      }
+      hr{
+        width: 500px;
+        float: left;
+        margin-left: 30px;
+      }
+      hr.vertical {
+      width: 0px;
+      height: 350px;
+      margin-top : 25px;
+    }
+      button{
+        width: 140px;
+        height: 30px;
+        background-color: yellowgreen;
+        color: white;
+        border: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>AUTUMN TRAVEL COMPANY</h1>
+      </header>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Order</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <img class="h1" src="./img.png" alt="" />  
+        <aside>
+            <p class="p1">Sign up for membership benefits</p>
+            <p class="p2">
+              Our philosophical values are transparency, repect, formality <br> and
+              responsibility. Our stimulus is your enthusiam. Our motto <br> is your
+              satisfaction
+            </p>
+            <p class="p3">
+                Username
+                <br>
+                <hr>
+            </p>
+                <p class="p4">
+                    E-mail
+                    <br>
+                    <hr>
+                </p>
+                <p class="p5">
+                    Password
+                    <br>
+                    <hr>
+                </p>
+                <p class="p6">
+                    Retype password
+                    <br>
+                    <hr>
+                </p>
+            <p class="p7"><button type="submit">SIGN ME UP</button></p>
+        </aside>
+        <section>
+            <hr class="vertical">
+            <div class="area">
+                <p class="p8">
+                    Links
+                    <br>
+                    <br>
+                    <ul class="u">
+                        <li>Make your Own tour</li>
+                        <li>Maldives Tour</li>
+                        <li>Nature & Adventure</li>
+                        <li>Readymade Tours</li>
+                        <li>Europe Tours</li>
+                        <li>Rusia Tour</li>
+                    </ul>
+                </p>
+            </div>
+                <p class="p9">
+                    More info
+                </p>
+                <img class="h3" src="./img3.png" alt="">
+        </section>
+      </div>
+      <footer>
+       
+      </footer>
+    </div>
+  </body>
+</html>
